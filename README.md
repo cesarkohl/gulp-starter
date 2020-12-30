@@ -1,8 +1,8 @@
-# As One - Gulp Starter
+# Gulp Starter
 
 ## Installing
 
-1. $ npm i
+1. $ npm install
 
 ## Getting Started
 
