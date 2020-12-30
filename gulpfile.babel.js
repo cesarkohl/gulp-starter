@@ -32,6 +32,7 @@ const sass = require('gulp-sass'); // Gulp plugin for Sass compilation.
 const cssnano = require('cssnano'); // Minifies CSS files.
 const cssnext = require('postcss-cssnext');
 const postcss = require('gulp-postcss');
+const postcssCombineMediaQuery = require('postcss-combine-media-query');
 const rtlcss = require('gulp-rtlcss'); // Generates RTL stylesheet.
 
 // JS related plugins.
@@ -61,8 +62,8 @@ const argv = require('yargs').argv;
 
 // Variables Used within Build Process
 const isProduction = argv.production !== undefined;
-const postCssProd = [cssnext(), cssnano()];
-const postCssDev = [cssnext()];
+const postCssProd = [cssnext(), cssnano(), postcssCombineMediaQuery()];
+const postCssDev = [cssnext(), postcssCombineMediaQuery()];
 
 /**
  * Custom Error Handler.

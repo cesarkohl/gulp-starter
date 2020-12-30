@@ -2,12 +2,10 @@
 
 body { background-color: black; }
 
-@media (min-width: 321px) { body { background-color: gray; } }
-
 h1 { background-color: blue; }
 
-@media (min-width: 321px) { h1 { background-color: red; } }
+@media (min-width: 321px) { body { background-color: gray; } h1 { background-color: red; } }
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiLCIuLi8uLi9ub2RlX21vZHVsZXMvaW5jbHVkZS1tZWRpYS9kaXN0L19pbmNsdWRlLW1lZGlhLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUEsSUFDRSxTQUFTLEVBQ1QsVUFBVSxFQUFBOztBQUdaLE9BQ0UsdUJBQXVCLEVBQUE7O0FDeWlCckIsNEJEMWlCSixPQUlJLHNCQUFzQixFQUFBLEVBRXpCOztBQUVELEtBQ0Usc0JBQXNCLEVBQUE7O0FDaWlCcEIsNEJEbGlCSixLQUlJLHFCQUFxQixFQUFBLEVBRXhCIiwiZmlsZSI6ImluZGV4LmNzcyJ9 */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiLCI8bm8gc291cmNlPiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQSxJQUNFLFNBQVMsRUFDVCxVQUFVLEVBQUE7O0FBR1osT0FDRSx1QkFBdUIsRUFBQTs7QUFPekIsS0FDRSxzQkFBc0IsRUFBQTs7QUNoQnhCLDRCRE9BLE9BSUksc0JBQXNCLEVBQUEsRUFJMUIsS0FJSSxxQkFBcUIsRUFBQSxHQ25CekIiLCJmaWxlIjoiaW5kZXguY3NzIn0= */
 
 /*# sourceMappingURL=index.css.map */
