@@ -1,0 +1,22 @@
+@import '../../node_modules/include-media/dist/_include-media';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+
+  @include media('>phone') {
+    background-color: gray;
+  }
+}
+
+h1 {
+  background-color: blue;
+
+  @include media('>phone') {
+    background-color: red;
+  }
+}
